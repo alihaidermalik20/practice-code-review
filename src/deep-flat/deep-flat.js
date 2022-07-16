@@ -4,7 +4,7 @@
  * It returns a new array and there are no side-effects.
  *
  * @param {Array} [array=[]] - The array to flatten.
- * @param depth - the depth of the nesting.
+ * @param depth - The depth of the nesting.
  * @returns {Array} Returns the new flattened array.
  * @example
  *
