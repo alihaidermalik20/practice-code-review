@@ -4,7 +4,7 @@
  * It returns a new array and there are no side-effects
  *
  * @param {Array} [array=[]] - The array to flatten.
- * @param depth - the depth of the nesting
+ * @param depth - the depth of the nesting.
  * @returns {Array} Returns the new flattened array.
  * @example
  *
@@ -19,7 +19,7 @@
 
 export const deepFlat = (arrOfNumbers = [], depth) => {
   // create a new flattened array
-  let newArray = arrOfNumbers.flat(depth);
+  const newArray = arrOfNumbers.flat(depth);
 
   // return the flattened array of numbers
   return newArray;
