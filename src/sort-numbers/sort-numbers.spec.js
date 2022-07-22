@@ -1,4 +1,4 @@
-import { sortNumbers } from './sort-numbers';
+import { sortNumbers } from './sort-numbers.js';
 
 describe('sorts numbers from smallest to largest', () => {
   for (let i = 0; i < 20; i++) {
