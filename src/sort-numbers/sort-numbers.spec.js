@@ -108,7 +108,7 @@ describe('sorts numbers from smallest to largest', () => {
     });
     it('leave the original array unmodified', () => {
       const arr = [-1.1, 0, 2];
-      const sortedArr = sortNumbers(arr);
+      sortNumbers(arr);
       expect(arr).toEqual([-1.1, 0, 2]);
     });
   });

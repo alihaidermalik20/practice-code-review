@@ -27,7 +27,7 @@ const arrTest = [4, 3, 2, 1];
 const arrCurr = arrTest.sort((a, b) => a - b);
 
 const arrTest2 = [4, 2, 1, 5, 7, 12];
-arrTest2.sort(function (a, b) {
+arrTest2.sort((a, b) => {
   console.log(arrTest2);
   return a - b;
 });
