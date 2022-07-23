@@ -2,9 +2,9 @@
  * Splits an object into multiple objects with one key/value pair each.
  * The new objects are returned in an array.
  *
- * This function has no side-effects, the argument object is not modified
+ * This function has no side-effects, the argument object is not modified.
  *
- * @param {Object} [toSeparate={}] - The object to split into key/value pairs.
+ * @param {object} [toSeparate={}] - The object to split into key/value pairs.
  * @returns {Array} Returns a new array with one entry for each key/value pair.
  * @example
  *
