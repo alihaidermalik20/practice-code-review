@@ -22,7 +22,9 @@ describe('not an object is passed as argument', () => {
   });
   it('throws a typeError even if an empty string is passed', () => {
     expect(() => {
-      splitObject('').toThrow(new TypeError("doesn't accept empty string"));
+      splitObject('').toThrow(
+        new TypeError('argument should be of type object'),
+      );
     });
   });
   it('throws an error if a number is passed as argument', () => {

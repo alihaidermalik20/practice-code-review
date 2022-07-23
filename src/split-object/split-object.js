@@ -27,9 +27,6 @@ export const splitObject = (toSeparate = {}) => {
   if (typeof toSeparate !== 'object') {
     throw new TypeError('argument should be of type object');
   }
-  if (toSeparate === '') {
-    throw new TypeError('doesn\t accept empty string');
-  }
   // takes key and value one by one
   for (const [key, value] of Object.entries(toSeparate)) {
     // console.log(`${key}: ${value}`); // first iteration name: 'Ali', then age: 24....
