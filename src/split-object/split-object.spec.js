@@ -20,7 +20,7 @@ describe('not an object is passed as argument', () => {
       splitObject('ali');
     }).toThrow(new TypeError('argument should be of type object'));
   });
-  it('throws a typeError even if an epmty string is passed', () => {
+  it('throws a typeError even if an empty string is passed', () => {
     expect(() => {
       splitObject('').toThrow(new TypeError("doesn't accept empty string"));
     });
