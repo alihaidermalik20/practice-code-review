@@ -1,8 +1,0 @@
-All solutions are present!
-PR's were used to merge code into the main branch, very good!
-Reviewers looked at the code
-CI checks passed!
-Not all checklist items in the PR are completed by the reviewer!
-Some people committed directly in the main branch, this should never happen
-
-Near perfect solution, very impressive!
